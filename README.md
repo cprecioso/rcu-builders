@@ -11,8 +11,9 @@ npm i rcu-builders
 ## Usage
 
 ```js
-var rcu = require( 'rcu' );
 var builders = require( 'rcu-builders' );
+var rcu = require( 'rcu' ); // You can use your own rcu
+var rcu = builders.rcu; // Or the exported one
 var Ractive = require( 'ractive' );
 
 // Initialise ractive component utils
